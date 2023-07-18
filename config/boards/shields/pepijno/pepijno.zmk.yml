@@ -1,0 +1,11 @@
+file_format: "1"
+id: pepijno
+name: pepijno
+type: shield
+url: https://github.com/pepijno/zmk-pepijno
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - pepijno_left
+  - pepijno_right

@@ -1,0 +1,5 @@
+config SHIELD_PEPIJNO_LEFT
+    def_bool $(shields_list_contains,pepijno_left)
+
+config SHIELD_PEPIJNO_RIGHT
+    def_bool $(shields_list_contains,pepijno_right)
