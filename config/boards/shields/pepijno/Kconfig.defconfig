@@ -1,4 +1,4 @@
-if SHIELD_PEPIJNO_LEFT
+if SHIELD_PEPIJNO_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "pepijno"
