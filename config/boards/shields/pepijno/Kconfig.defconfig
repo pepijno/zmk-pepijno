@@ -12,3 +12,12 @@ if SHIELD_PEPIJNO_LEFT || SHIELD_PEPIJNO_RIGHT
 config ZMK_SPLIT
     default y
 endif
+
+if ZMK_DISPLAY
+config ZMK_WIDGET_WPM_STATUS
+    default n
+# config ZMK_WIDGET_BATTERY_STATUS
+#     default y
+config ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE
+    default y
+endif # ZMK_DISPLAY
