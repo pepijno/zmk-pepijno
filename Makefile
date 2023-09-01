@@ -8,7 +8,7 @@ all:
 	docker run --rm -it --name zmk \
 		-v $(PWD)/firmware:/app/firmware \
 		-v $(PWD)/config:/app/config:ro \
-		-v $(PWD)/miryoku:/app/miryoku:ro \
+		-v $(PWD)/miryoku_zmk/miryoku:/app/miryoku:ro \
 		-e TIMESTAMP=$(TIMESTAMP) \
 		zmk
 
