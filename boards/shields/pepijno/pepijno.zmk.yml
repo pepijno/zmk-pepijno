@@ -3,7 +3,7 @@ id: pepijno
 name: pepijno
 type: shield
 url: https://github.com/pepijno/zmk-pepijno
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
 siblings:
